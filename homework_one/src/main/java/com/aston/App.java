@@ -1,13 +1,21 @@
 package com.aston;
 
-/**
- * Hello world!
- *
- */
+import com.aston.domain.dto.ImmutableUser;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        List<String> roles = new ArrayList<>();
+        roles.add("USER");
+
+        ImmutableUser user = new ImmutableUser("John", roles);
+
+        roles.add("ADMIN");
+
+        System.out.println(user.getRoles());
     }
 }
