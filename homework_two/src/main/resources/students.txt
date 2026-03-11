@@ -1,0 +1,25 @@
+Ivan;Clean Code Version by...;464;2008
+Ivan;Effective Java;412;2018
+Ivan;Java Concurrency;400;2006
+Ivan;Refactoring;448;1999
+Ivan;Spring in Action;520;2020
+Petr;Design Patterns;395;1994
+Petr;Thinking in Java;1150;2006
+Petr;Clean Architecture;430;2017
+Petr;Spring in Action;520;2020
+Petr;SQL Performance;250;2012
+Kirill;Docker for Java;300;2021
+Kirill;Kubernetes Guide;500;2022
+Kirill;Microservices or what?;450;2019
+Kirill;Modern Java;380;2018
+Kirill;Bubble Algorithms;600;2015
+Ptolomey;Rich Algorithms;800;2011
+Ptolomey;SQL Performance part 2;350;2014
+Ptolomey;Introduction to SQL;320;1998
+Ptolomey;Hibernate in Action;600;2005
+Ptolomey;Docker Deep Dive;400;2021
+Artur;Kubernetes Guide;500;2022
+Artur;Microservices or what?;450;2019
+Artur;Modern Java;380;2018
+Artur;Bubble Algorithms;600;2015
+Artur;Bubble Algorithms;600;2015
