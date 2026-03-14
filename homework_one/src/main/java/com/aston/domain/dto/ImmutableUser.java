@@ -1,23 +1,25 @@
 package com.aston.domain.dto;
 
+import com.aston.domain.enums.Role;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public final class ImmutableUser {
 
     private final String name;
-    private final List<String> roles;
+    private final List<Role> roles;
 
-    public ImmutableUser(String name, List<String> roles) {
+    public ImmutableUser(String name, List<Role> roles) {
         this.name = name;
-        this.roles = new ArrayList<>(roles);
+        this.roles = List.copyOf(roles);
     }
 
     public String getName() {
         return name;
     }
 
-    public List<String> getRoles() {
-        return new ArrayList<>(roles);
+    public List<Role> getRoles() {
+        return roles;
     }
 }
