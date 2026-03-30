@@ -5,7 +5,7 @@ import com.aston.builder.domain.model.UserProfile;
 public class UserProfileFactory {
 
     public UserProfile createDefaultDeveloperProfile() {
-        return new UserProfile.Builder("Ivan", "Ivanov")
+        return UserProfile.builder("Ivan", "Ivanov")
                 .age(25)
                 .email("ivanov@example.com")
                 .phone("+7 123 456 78 90")

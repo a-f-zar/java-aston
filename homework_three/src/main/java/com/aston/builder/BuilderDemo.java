@@ -6,13 +6,13 @@ import com.aston.builder.domain.model.UserProfile;
 public class BuilderDemo {
 
     public static void main(String[] args) {
-        UserProfile profile1 = new UserProfile.Builder("Sergey", "Petrov")
+        UserProfile profile1 = UserProfile.builder("Sergey", "Petrov")
                 .age(28)
                 .email("sergey.petrov@example.com")
                 .jobTitle("QA Engineer")
                 .build();
 
-        UserProfile profile2 = new UserProfile.Builder("Anna", "Sidorova")
+        UserProfile profile2 = UserProfile.builder("Anna", "Sidorova")
                 .email("anna.sidorova@example.com")
                 .phone("+7 900 123 45 67")
                 .address("Moscow")

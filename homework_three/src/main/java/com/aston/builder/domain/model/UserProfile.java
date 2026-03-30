@@ -68,6 +68,10 @@ public class UserProfile {
                 '}';
     }
 
+    public static Builder builder(String firstName, String lastName) {
+        return new Builder(firstName, lastName);
+    }
+
     public static class Builder {
         private final String firstName;
         private final String lastName;
@@ -78,7 +82,7 @@ public class UserProfile {
         private String jobTitle;
         private String about;
 
-        public Builder(String firstName, String lastName) {
+        private  Builder(String firstName, String lastName) {
             this.firstName = firstName;
             this.lastName = lastName;
         }
